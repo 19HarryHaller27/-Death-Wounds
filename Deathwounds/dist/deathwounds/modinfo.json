@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "deathwounds",
+  "name": "Death Wounds",
+  "authors": ["adams"],
+  "description": "Death-touched injuries in survival: random leg (slower move) or torso (faster hunger) tiers on death; poultices cure by body part. Does not require any other mod. Character dialog shows a Death Wounds panel.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.20.0"
+  }
+}

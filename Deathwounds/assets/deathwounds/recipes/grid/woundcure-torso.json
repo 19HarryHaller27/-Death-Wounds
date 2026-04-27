@@ -1,0 +1,302 @@
+[
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-clean", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-linen-clean",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-clean", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-cattail-clean",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-clean", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-papyrus-clean",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-alcoholed", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-linen-alco",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-alcoholed", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-cattail-alco",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:bandage-alcoholed", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-papyrus-alco",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:pulp-linen", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-linen-pulp",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:pulp-linen", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-cattail-pulp",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:pulp-linen", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-papyrus-pulp",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:rope", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-linen-rope",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:rope", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-cattail-rope",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:rope", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-papyrus-rope",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-linen-flaxtwine",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-cattail-flaxtwine",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-torso-papyrus-flaxtwine",
+    "output": { "type": "item", "code": "woundcure-torso", "quantity": 4 }
+  }
+]

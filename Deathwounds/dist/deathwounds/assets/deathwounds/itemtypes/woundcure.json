@@ -1,0 +1,73 @@
+{
+  "code": "woundcure",
+  "class": "ItemWoundCure",
+  "maxstacksize": 16,
+  "variantgroups": [
+    { "code": "kind", "states": [ "leg", "torso" ] }
+  ],
+  "attributes": {
+    "displaycaseable": true,
+    "shelvable": true,
+    "handbook": { "groupBy": [ "woundcure-*" ] }
+  },
+  "attributesByType": {
+    "*-leg": { "woundCurePart": "leg" },
+    "*-torso": { "woundCurePart": "torso" }
+  },
+  "behaviors": [
+    {
+      "name": "HealingItem",
+      "propertiesByType": {
+        "*-leg": {
+          "health": 4,
+          "applicationtimesec": 3,
+          "maxapplicationtimesec": 10,
+          "effectdurationsec": 10,
+          "ticks": 10,
+          "cancelinair": false,
+          "cancelwhileswimming": false,
+          "delaytocancelsec": 0.5
+        },
+        "*-torso": {
+          "health": 4,
+          "applicationtimesec": 3,
+          "maxapplicationtimesec": 10,
+          "effectdurationsec": 10,
+          "ticks": 10,
+          "cancelinair": false,
+          "cancelwhileswimming": false,
+          "delaytocancelsec": 0.5
+        }
+      }
+    }
+  ],
+  "shape": { "base": "game:item/medicine/poultice-linen" },
+  "textures": {
+    "agent": { "base": "game:item/medicine/linen/honey-sulfur" }
+  },
+  "creativeinventory": { "general": [ "*" ], "items": [ "*" ] },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 120, "y": 41, "z": 7 },
+    "origin": { "x": 0.5, "y": 0.11, "z": 0.47 },
+    "scaleXyz": { "x": 2.0, "y": 2.0, "z": 2.0 }
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 180, "y": 33, "z": -180 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scaleXyz": { "x": 2.2, "y": 2.2, "z": 2.2 }
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.1, "y": 0.1, "z": 0 },
+    "rotation": { "x": 21, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.4 },
+    "scaleXyz": { "x": 1.2, "y": 1.2, "z": 1.2 }
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.7, "y": -0.28, "z": -0.8 },
+    "rotation": { "x": -78, "y": 7, "z": 8 },
+    "origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+    "scaleXyz": { "x": 0.7, "y": 0.7, "z": 0.7 }
+  }
+}

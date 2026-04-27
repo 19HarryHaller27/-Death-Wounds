@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>DeathWounds</AssemblyName>
+    <RootNamespace>DeathWounds</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VintageStoryPath)\VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>$(VintageStoryPath)\VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="StageModForGame" AfterTargets="Build">
+    <PropertyGroup>
+      <ModRootDir>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..\..'))</ModRootDir>
+      <StageDir>$([System.IO.Path]::GetFullPath('$(ModRootDir)\dist\deathwounds'))</StageDir>
+    </PropertyGroup>
+    <MakeDir Directories="$(StageDir)" />
+    <Copy SourceFiles="$(ModRootDir)\modinfo.json" DestinationFolder="$(StageDir)" SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <StageAssets Include="$(ModRootDir)\assets\deathwounds\**\*.*" />
+    </ItemGroup>
+    <Copy
+      SourceFiles="@(StageAssets)"
+      DestinationFiles="@(StageAssets->'$(StageDir)\assets\deathwounds\%(RecursiveDir)%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(StageDir)" SkipUnchangedFiles="true" />
+    <!-- Vintage Story loads code from *.dll in the same folder as modinfo.json (not from src/ or dist/). -->
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModRootDir)" SkipUnchangedFiles="true" />
+    <Copy
+      SourceFiles="$(TargetDir)$(TargetName).pdb"
+      DestinationFolder="$(ModRootDir)"
+      SkipUnchangedFiles="true"
+      Condition="Exists('$(TargetDir)$(TargetName).pdb')" />
+  </Target>
+</Project>

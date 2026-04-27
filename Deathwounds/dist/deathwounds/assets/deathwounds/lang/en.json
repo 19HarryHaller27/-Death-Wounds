@@ -1,0 +1,22 @@
+{
+  "item-woundcure-leg": "Wound poultice (legs)",
+  "item-woundcure-torso": "Wound poultice (torso)",
+  "item-handbooktext-woundcure-leg": "A treated poultice for <strong>leg</strong> injuries. It also lowers one random <i>death-touched</i> leg wound by one tier each use.",
+  "item-handbooktext-woundcure-torso": "A treated poultice for <strong>torso</strong> injuries. It also lowers one random <i>death-touched</i> torso wound by one tier each use.",
+  "itemdesc-woundcure-leg": "A treated poultice for leg wounds.",
+  "itemdesc-woundcure-torso": "A treated poultice for torso wounds.",
+  "deathwounds:gui-title-wounds": "Death-touched injuries",
+  "deathwounds:gui-subtitle-wounds": "Active penalties",
+  "deathwounds:gui-wounds-empty": "No lasting death wounds. Dying in survival can add movement or hunger penalties until treated with the matching poultice.",
+  "deathwounds:debuff-wound-move-title": "Movement Strain",
+  "deathwounds:debuff-wound-move-desc": "Your body does not move as it once did—muscles protest every step. Rumor speaks of a special remedy that can set this right.",
+  "deathwounds:debuff-wound-statline-move": "(−{0}% walk and sprint speed) (Wound tiers {1})",
+  "deathwounds:debuff-wound-hunger-title": "Hollow Gut",
+  "deathwounds:debuff-wound-hunger-desc": "Since your last brush with death, meals never seem to last—the body asks for fuel again sooner. A healer's poultice for the torso may yet calm this.",
+  "deathwounds:debuff-wound-statline-hunger": "(+{0}% hunger rate) (Wound tiers {1})",
+  "deathwounds:deathdebuff-respawn-bodywarn": "Your body feels badly battered—as if something important was torn and did not come back the same. Open Character → the Death Wounds panel beside this dialog and read your injuries. A cure is possible, if you can find the right poultice.",
+  "deathwounds:woundcure-heal-chat": "Curing that wound makes you feel better.",
+  "deathwounds:woundcure-nothing-to-cure": "You have no injury in that part of the body to treat with this tincture.",
+  "deathwounds:debuff-wound-part-suffix-leg": " (legs)",
+  "deathwounds:debuff-wound-part-suffix-torso": " (torso)"
+}

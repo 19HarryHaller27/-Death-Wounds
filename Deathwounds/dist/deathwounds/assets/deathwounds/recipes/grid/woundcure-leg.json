@@ -1,0 +1,62 @@
+[
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_L_\u0009A_A",
+    "ingredients": {
+      "L": { "type": "block", "code": "game:linen-*" },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:stick", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-leg-linen",
+    "output": { "type": "item", "code": "woundcure-leg", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_C_\u0009A_A",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:stick", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-leg-cattail",
+    "output": { "type": "item", "code": "woundcure-leg", "quantity": 4 }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "SBS\u0009_P_\u0009A_A",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+      "S": { "type": "item", "code": "game:powder-sulfur" },
+      "B": { "type": "block", "code": "game:bowl-*-fired" },
+      "A": { "type": "item", "code": "game:stick", "quantity": 2 }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresLitres": 0.25
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "deathwounds-woundcure-leg-papyrus",
+    "output": { "type": "item", "code": "woundcure-leg", "quantity": 4 }
+  }
+]
